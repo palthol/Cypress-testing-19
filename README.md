@@ -28,7 +28,7 @@ Develop/
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/coding-quiz.git
+   git clone https://github.com/palthol/coding-quiz.git
    cd coding-quiz/Develop
    ```
 
