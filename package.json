@@ -14,10 +14,9 @@
     "build": "cd server && npm run build",
     "seed": "cd server && npm run seed",
     "render-build": "npm install && npm run build",
-    "test": "cypress run --component && cypress run --e2e",
-    "test:component": "cypress run --component",
-    "test:e2e": "cypress run --e2e",
-    "cypress:open": "cypress open"
+    "test": "cross-env NODE_OPTIONS=--no-warnings cypress run --component && cross-env NODE_OPTIONS=--no-warnings cypress run --e2e",
+    "test:component": "cross-env NODE_OPTIONS=--no-warnings cypress run --component",
+    "test:e2e": "cross-env NODE_OPTIONS=--no-warnings cypress run --e2e"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +26,7 @@
     "@types/react": "^18.3.3",
     "@vitejs/plugin-react": "^4.3.1",
     "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3",
     "cypress": "^13.17.0",
     "nodemon": "^3.1.3",
     "react": "^18.3.1",
