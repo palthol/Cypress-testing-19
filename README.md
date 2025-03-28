@@ -42,6 +42,10 @@ Develop/
 
 ## Running the Application
 
+**[walkthrough video](https://drive.google.com/file/d/180R6EdnSEbXN3d0zaLhKKoDNgC_rZsVm/view?usp=drive_link)**
+
+
+
 - **Development Mode:**  
   This starts the Node server and the Vite development server concurrently.
 
@@ -87,12 +91,9 @@ This project uses Cypress for both component testing and end-to-end (E2E) testin
   npm run test
   ```
 
-- **Interactive Mode:**  
-  If you prefer to use the Cypress Test Runner interface to debug tests interactively:
 
-  ```bash
-  npm run cypress:open
-  ```
+
+
 
 ### Cypress Configuration
 
