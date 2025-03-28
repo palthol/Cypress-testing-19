@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "node"],
+      "jsx": "react-jsx",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "skipLibCheck": true,
+      "resolveJsonModule": true // Added to handle JSON files like fixtures
+    },
+    "include": [
+      "component/**/*.{js,jsx,ts,tsx}",
+      "e2e/**/*.{js,jsx,ts,tsx}",
+      "fixtures/**/*.json",
+      "support/**/*.{js,ts}"
+    ]
+
+  }
