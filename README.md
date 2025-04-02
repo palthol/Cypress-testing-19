@@ -1,5 +1,5 @@
 # Coding Quiz
-
+# **[walkthrough video](https://drive.google.com/file/d/180R6EdnSEbXN3d0zaLhKKoDNgC_rZsVm/view?usp=drive_link)**
 This repository contains a quiz application built with React, Node, and Vite. The application allows users to take a quiz, displaying questions retrieved from an API. We use Cypress extensively for both component and end-to-end (E2E) testing to ensure quality and reliability.
 
 ## Repository Structure
@@ -42,7 +42,7 @@ Develop/
 
 ## Running the Application
 
-**[walkthrough video](https://drive.google.com/file/d/180R6EdnSEbXN3d0zaLhKKoDNgC_rZsVm/view?usp=drive_link)**
+
 
 
 
